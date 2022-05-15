@@ -32,6 +32,9 @@
 <ul>
 <li><a href="https://www.python.org/">https://www.python.org/</a></li>
 <li><a href="https://www.docker.com/">https://www.docker.com/</a></li>
+<li><a href="https://numpy.org/doc/stable/index.html">https://numpy.org/doc/stable/index.html</a></li>
+<li><a href="https://www.aprendematematicas.org.mx/unit/integracion-aproximada-regla-del-trapecio/">https://www.aprendematematicas.org.mx/unit/integracion-aproximada-regla-del-trapecio/</a></li>
+<li><a href="https://www.desmos.com/calculator?lang=es">https://www.desmos.com/calculator?lang=es</a></li>
 </ul>
 </td>
 </<tr>
