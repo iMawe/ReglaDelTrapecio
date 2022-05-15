@@ -30,8 +30,8 @@
 <tr><td>TÍTULO DE LA PRÁCTICA:</td><td>Git - GitHub</td></tr>
 <tr><td colspan="2">RECURSOS A UTILIZAR:
 <ul>
-<li><a href="https://guides.github.com/">https://guides.github.com/</a></li>
-<li><a href="https://git-scm.com/book/es/v2">https://git-scm.com/book/es/v2</a></li>
+<li><a href="https://www.python.org/">https://www.python.org/</a></li>
+<li><a href="https://www.docker.com/">https://www.docker.com/</a></li>
 </ul>
 </td>
 </<tr>
