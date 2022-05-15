@@ -27,7 +27,7 @@
 </theader>
 <tbody>
 
-<tr><td>TÍTULO DE LA PRÁCTICA:</td><td>Git - GitHub</td></tr>
+<tr><td>TÍTULO DE LA PRÁCTICA:</td><td>Regla del trapecio - Docker - Python</td></tr>
 <tr><td colspan="2">RECURSOS A UTILIZAR:
 <ul>
 <li><a href="https://www.python.org/">https://www.python.org/</a></li>
@@ -41,7 +41,7 @@
 </ul>
 </td>
 </<tr>
-<tr><td colspan="2">ALUMNOS:
+<tr><td colspan="2">ALUMNO:
 <ul>
 <li>Medina Pauca, Walther Mauricio (wmedinap@ulasalle.edu.pe)</li>
 </ul>
@@ -68,7 +68,8 @@
 - Desarrolle el proyecto mediante github.
 
 ## REFERENCIAS Y BIBLIOGRÁFIA RECOMENDADAS
-- 
+- https://programacionpython80889555.wordpress.com/2019/07/30/un-sencillo-ejemplo-sobre-uso-de-hilos-en-python-con-threading/
+- https://www.hostinger.es/tutoriales/como-crear-contenedor-docker
 
 
 
