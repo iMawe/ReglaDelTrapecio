@@ -15,14 +15,15 @@ def mensajeRecivido(data):
     cadena = str(data, 'UTF-8')
     expresion = re.split(r'\s+', cadena)
     global funcionPrincipal
-    global l_superior
-    global l_inferior
+    #global l_superior
+    #global l_inferior
     global n_trapecios
     funcionPrincipal = expresion[0]
     l_superior = int(expresion[1])
     l_inferior = int(expresion[2])
     n_trapecios = int(expresion[3])
-    main()
+    inicializacion(l_superior, l_inferior, n_trapecios)
+    main(n_trapecios)
 
 
 def funcion(x):
@@ -37,11 +38,13 @@ def showFunction():
 #l_inferior = float(input('Ingrese el limite inferior: '))
 #n_trapecios = int(input('Ingrese el numero de trapecios: '))
 
-x = np.zeros([n_trapecios + 1])
+def inicializacion(l_superior, l_inferior, n_trapecios):
+    global h
+    x = np.zeros([n_trapecios + 1])
+    h = (l_superior - l_inferior) / n_trapecios
+    x[0] = l_inferior
+    x[n_trapecios] = l_superior
 
-h = (l_superior - l_inferior) / n_trapecios
-x[0] = l_inferior
-x[n_trapecios] = l_superior
 suma = 0
 
 def calcTrapecio(i):
@@ -71,7 +74,7 @@ async def run_blocking_tasks(executor):
     completed, pending = await asyncio.wait(blocking_tasks)
     log.info('exiting')
 
-def main():
+def main(n_trapecios):
     logging.basicConfig(
         level=logging.INFO,
         format='%(threadName)10s %(message)s',
