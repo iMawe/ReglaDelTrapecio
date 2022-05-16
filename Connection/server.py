@@ -28,9 +28,10 @@ def mensajeRecivido(data):
 def funcion(x):
     return eval(funcionPrincipal)
 
-r = np.linspace(0,10,100)
-plt.ion()
-plt.plot(r,funcion(r))
+def showFunction():
+    r = np.linspace(0,10,100)
+    plt.ion()
+    plt.plot(r,funcion(r))
 
 #l_superior = float(input('Ingrese el limite superior: '))
 #l_inferior = float(input('Ingrese el limite inferior: '))
