@@ -12,7 +12,7 @@ def funcion(x):
     return y
 
 r = np.linspace(0,10,100)
-#plt.ion()
+plt.ion()
 plt.plot(r,funcion(r))
 
 
