@@ -114,7 +114,7 @@ async def run_blocking_tasks(executor):
 # Create a UDP socket
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 # Bind the socket to the port
-server_address = ('localhost', 10000)
+server_address = ('0.0.0.0', 10000)
 print('starting up on {} port {}'.format(*server_address))
 sock.bind(server_address)
 
