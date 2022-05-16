@@ -3,7 +3,7 @@ import sys
 
 # Create a UDP socket
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-server_address = ('172.18.0.2', 10000)
+server_address = ('172.18.0.3', 10000)
 print("funcion limiteSuperior limiteInferior numeroTrapecios")
 message = input()#b'' 90
 
