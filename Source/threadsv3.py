@@ -12,9 +12,10 @@ def funcion(x):
     y = np.sin(np.sqrt(x))
     return y
 
-r = np.linspace(0,10,100)
-plt.ion()
-plt.plot(r,funcion(r))
+def show():
+    r = np.linspace(0,10,100)
+    plt.ion()
+    plt.plot(r,funcion(r))
 
 
 b = float(input('Ingrese el limite superior: '))
